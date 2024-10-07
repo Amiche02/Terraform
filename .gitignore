@@ -1,0 +1,10 @@
+# Ignorer les fichiers générés par Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Ignorer les fichiers de l'état Terraform
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignorer les fichiers .exe et binaires volumineux
+*.exe
